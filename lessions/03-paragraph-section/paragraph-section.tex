@@ -1,0 +1,32 @@
+\documentclass[a4paper]{article}
+\usepackage{listings}
+\usepackage{color}
+
+\begin{document}
+\section{}
+How make Processes a Makefile
+\paragraph{}
+
+make reads the makefile in the current directory and begins by processing the first rule.
+In the example, this rule is for relinking edit; but before make can fully process this rule, it must process the rules for the files that edit depends on, which in this case are the object files.
+Each of these files is processed according to its own rule. 
+These rules say to update each ‘.o’ file by compiling its source file. 
+The recompilation must be done if the source file, or any of the header files named as prerequisites, is more recent than the object file, or if the object file does not exist.
+
+\subsection{}
+How make Processes a Makefile
+\paragraph{}
+make reads the makefile in the current directory and begins by processing the first rule.
+In the example, this rule is for relinking edit; but before make can fully process this rule, it must process the rules for the files that edit depends on, which in this case are the object files.
+Each of these files is processed according to its own rule. 
+These rules say to update each ‘.o’ file by compiling its source file. 
+The recompilation must be done if the source file, or any of the header files named as prerequisites, is more recent than the object file, or if the object file does not exist.
+
+\subparagraph{}
+make reads the makefile in the current directory and begins by processing the first rule.
+In the example, this rule is for relinking edit; but before make can fully process this rule, it must process the rules for the files that edit depends on, which in this case are the object files.
+Each of these files is processed according to its own rule. 
+These rules say to update each ‘.o’ file by compiling its source file. 
+The recompilation must be done if the source file, or any of the header files named as prerequisites, is more recent than the object file, or if the object file does not exist.
+
+\end{document}
