@@ -4,6 +4,7 @@
 
 SUBDIRS := 00-helloworld 01-multilingual 02-lists 03-paragraph-section 04-tableofcontents \
            05-package 06-table 07-adding-images 08-insert-code 09-multiple-files
+SUBDIRS += makefile-cheatsheet
 SRCS:= $(foreach dir,$(SUBDIRS),$(wildcard $(dir)/*.tex))
 OBJS:=$(patsubst %.tex, %.pdf, $(SRCS))
 
