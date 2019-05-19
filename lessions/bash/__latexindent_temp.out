@@ -1,0 +1,7 @@
+\BOOKMARK [1][-]{section.1}{Safer\040bash\040scripts\040with\040'set\040-euxo\040pipefail'}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{set\040-e}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{set\040-o\040pipefail}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{set\040-u}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{set\040-x}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{Reader\040suggestion:\040set\040-E}{section.1}% 6
+\BOOKMARK [2][-]{subsection.1.6}{Conclusion}{section.1}% 7
